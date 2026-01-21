@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kedai Kopi - Nikmati kopi pilihan dengan suasana nyaman">
+    <title>Kedai Kopi - Coffee & Snacks</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>☕ Kedai Kopi</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#galeri">Galeri</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+                <li><a href="#harga">Harga Paket</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Selamat Datang di Kedai Kopi</h2>
+            <p class="hero-subtitle">Nikmati Kopi Pilihan dengan Suasana yang Nyaman</p>
+            <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tentang Kami</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Kedai Kopi adalah tempat yang sempurna untuk menikmati kopi berkualitas dengan suasana yang hangat dan nyaman. Kami menyajikan berbagai pilihan kopi dari biji pilihan terbaik, diolah dengan penuh cinta oleh barista profesional kami.</p>
+                    <p>Buka setiap hari: <strong>08:00 - 22:00 WIB</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2>Menu Digital Kami</h2>
+                <div class="divider"></div>
+                <p>Pilihan kopi dan makanan terbaik untuk Anda</p>
+            </div>
+            
+            <div class="menu-categories">
+                <button class="category-btn active" data-category="all">Semua</button>
+                <button class="category-btn" data-category="kopi">Kopi</button>
+                <button class="category-btn" data-category="non-kopi">Non-Kopi</button>
+                <button class="category-btn" data-category="makanan">Makanan</button>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Coffee Items -->
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #6B4423 0%, #3E2723 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Espresso</h3>
+                        <p>Kopi espresso klasik dengan rasa yang kuat</p>
+                        <span class="price">Rp 18.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #8D6E63 0%, #5D4037 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso dengan susu dan busa yang lembut</p>
+                        <span class="price">Rp 25.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #A1887F 0%, #6D4C41 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Caffe Latte</h3>
+                        <p>Espresso dengan susu yang creamy</p>
+                        <span class="price">Rp 28.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #BCAAA4 0%, #8D6E63 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Kopi Susu Gula Aren</h3>
+                        <p>Kopi susu dengan gula aren asli</p>
+                        <span class="price">Rp 22.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #4E342E 0%, #3E2723 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Vietnamese Coffee</h3>
+                        <p>Kopi Vietnam dengan susu kental manis</p>
+                        <span class="price">Rp 24.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #795548 0%, #4E342E 100%);">☕</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Americano</h3>
+                        <p>Espresso dengan air panas</p>
+                        <span class="price">Rp 20.000</span>
+                    </div>
+                </div>
+
+                <!-- Non-Coffee Items -->
+                <div class="menu-item" data-category="non-kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #FFB74D 0%, #F57C00 100%);">🍊</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Fresh Orange Juice</h3>
+                        <p>Jus jeruk segar tanpa gula</p>
+                        <span class="price">Rp 18.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="non-kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #66BB6A 0%, #388E3C 100%);">🍵</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Green Tea Latte</h3>
+                        <p>Teh hijau dengan susu</p>
+                        <span class="price">Rp 24.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="non-kopi">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #EF5350 0%, #C62828 100%);">🍓</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Strawberry Smoothie</h3>
+                        <p>Smoothie strawberry segar</p>
+                        <span class="price">Rp 26.000</span>
+                    </div>
+                </div>
+
+                <!-- Food Items -->
+                <div class="menu-item" data-category="makanan">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #FDD835 0%, #F9A825 100%);">🥐</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Croissant</h3>
+                        <p>Croissant butter premium</p>
+                        <span class="price">Rp 15.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="makanan">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #FF8A65 0%, #E64A19 100%);">🥪</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Club Sandwich</h3>
+                        <p>Sandwich dengan isian lengkap</p>
+                        <span class="price">Rp 32.000</span>
+                    </div>
+                </div>
+
+                <div class="menu-item" data-category="makanan">
+                    <div class="menu-item-img">
+                        <div class="menu-img-placeholder" style="background: linear-gradient(135deg, #8D6E63 0%, #5D4037 100%);">🍰</div>
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Chocolate Cake</h3>
+                        <p>Kue coklat lembut dengan topping</p>
+                        <span class="price">Rp 28.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Galeri Produk</h2>
+                <div class="divider"></div>
+                <p>Foto-foto produk kami yang menggugah selera</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #6B4423 0%, #3E2723 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Espresso</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #8D6E63 0%, #5D4037 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Cappuccino</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #A1887F 0%, #6D4C41 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Latte Art</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #BCAAA4 0%, #8D6E63 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Kopi Susu</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #FDD835 0%, #F9A825 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Pastry</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-img" style="background: linear-gradient(135deg, #8D6E63 0%, #5D4037 100%);">
+                        <div class="gallery-overlay">
+                            <h3>Dessert</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="harga" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Paket Website untuk UMKM Anda</h2>
+                <div class="divider"></div>
+                <p>Website profesional seperti ini bisa menjadi milik bisnis Anda!</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Paket Basic</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">1.000.000</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Landing Page Responsif</li>
+                        <li>✓ Menu Digital</li>
+                        <li>✓ Galeri Produk</li>
+                        <li>✓ Tombol WhatsApp</li>
+                        <li>✓ Domain & Hosting 1 Tahun</li>
+                        <li>✓ Free Maintenance 3 Bulan</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="badge">Populer</div>
+                    <div class="pricing-header">
+                        <h3>Paket Premium</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">1.500.000</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Semua Fitur Basic</li>
+                        <li>✓ Formulir Pemesanan</li>
+                        <li>✓ Google Maps Integrasi</li>
+                        <li>✓ SEO Optimization</li>
+                        <li>✓ Custom Design</li>
+                        <li>✓ Free Maintenance 6 Bulan</li>
+                        <li>✓ Social Media Integration</li>
+                    </ul>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Paket Enterprise</h3>
+                        <div class="pricing-price">
+                            <span class="currency">Rp</span>
+                            <span class="amount">1.800.000</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>✓ Semua Fitur Premium</li>
+                        <li>✓ Sistem Pemesanan Online</li>
+                        <li>✓ Dashboard Admin</li>
+                        <li>✓ Email Marketing</li>
+                        <li>✓ Analytics & Reports</li>
+                        <li>✓ Free Maintenance 12 Bulan</li>
+                        <li>✓ Priority Support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hubungi Kami</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📍 Alamat</h3>
+                    <p>Jl. Contoh No. 123, Jakarta</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📞 Telepon</h3>
+                    <p>+62 812-3456-7890</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📧 Email</h3>
+                    <p>info@kedaikopi.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Kedai Kopi. All rights reserved.</p>
+            <p>Website Template - Katalog Landing Page</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20memesan" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.828.738 5.488 2.028 7.788L0 32l8.384-2.192A15.905 15.905 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0z" fill="#25D366"/>
+            <path d="M25.264 22.52c-.36 1.012-2.124 1.86-3.48 2.104-.912.164-2.104.296-6.104-1.312-5.128-2.06-8.42-7.284-8.676-7.62-.248-.336-2.048-2.724-2.048-5.196 0-2.472 1.296-3.688 1.756-4.192.46-.504 1.004-.628 1.34-.628.336 0 .672.004.968.016.308.016.724-.116 1.132 1.3.336.836.94 2.292 1.024 2.46.084.168.14.364.028.588-.112.224-.168.364-.336.56-.168.196-.352.44-.504.588-.168.164-.344.344-.148.676.196.324.872 1.436 1.872 2.324 1.288 1.144 2.372 1.5 2.708 1.668.336.168.532.14.728-.084.196-.224.844-.984 1.068-1.324.224-.34.448-.28.756-.168.308.112 1.956.924 2.292 1.092.336.168.56.252.644.392.084.14.084.808-.276 1.82z" fill="#fff"/>
+        </svg>
+        <span>Pesan via WhatsApp</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
