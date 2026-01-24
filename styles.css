@@ -553,6 +553,39 @@ body {
     opacity: 0.8;
 }
 
+.creator-credit {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.creator-credit p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+}
+
+.creator-credit strong {
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+
+.credit-links {
+    margin-top: 0.5rem;
+}
+
+.credit-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.credit-links a:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
 /* Floating WhatsApp Button */
 .whatsapp-float {
     position: fixed;
