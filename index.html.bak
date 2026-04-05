@@ -62,30 +62,6 @@
         </div>
     </section>
 
-    <section id="about" class="philosophy-section">
-        <div class="container">
-            <div class="philosophy-content">
-                <div class="philosophy-image">
-                    <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Filosofi Kopi" style="border-radius: 12px; width: 100%; box-shadow: 0 15px 35px rgba(0,0,0,0.15);">
-                </div>
-                <div class="philosophy-text">
-                    <h2>Filosofi <span>Kopi Artisan</span></h2>
-                    <p>Lebih dari sekadar minuman pembuka hari, kami percaya bahwa secangkir kopi adalah medium untuk menjalin cerita dan merayakan momen. Setiap biji yang kami seduh membawa jejak perjuangan dari sang petani lokal langsung ke meja Anda.</p>
-                    <div class="beliefs">
-                        <div class="belief-item">
-                            <h3>Etika & Sustainabilitas</h3>
-                            <p>Kami bekerja sama langsung dengan kelompok tani lokal, mendukung pertanian berkelanjutan dan prinsip fair trade untuk menjaga bumi dan manusianya.</p>
-                        </div>
-                        <div class="belief-item">
-                            <h3>Seni Menuang Rasa</h3>
-                            <p>Barista kami mengkalibrasi dan mengekstrak setiap miligram kopi dengan dedikasi tinggi agar karakter asli dari biji kopi dapat muncul dengan sempurna di setiap tegukan.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <footer class="footer">
         <div class="container text-center">
             <h2 class="brand-font">ARTISAN.</h2>
@@ -93,11 +69,5 @@
             <p class="copyright">&copy; 2026 Artisan Coffee House. All rights reserved.</p>
         </div>
     </footer>
-
-<!-- Floating Copyright Badge -->
-<div style="position: fixed; bottom: 20px; right: 20px; background: rgba(15, 23, 42, 0.9); color: #fff; padding: 10px 20px; border-radius: 30px; font-family: 'Inter', system-ui, sans-serif; font-size: 13px; font-weight: 500; z-index: 99999; box-shadow: 0 10px 25px rgba(0,0,0,0.2); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.1); display: flex; align-items: center; gap: 8px;">
-    <span>&copy; 2026 Crafted by</span>
-    <span style="color: #60a5fa; font-weight: 700; letter-spacing: 0.5px;">azsig</span>
-</div>
 </body>
 </html>
